@@ -9,14 +9,20 @@ const MiddleContent = () => {
         <MiddleContentContainer>
             <Premium>
                 <h1>Funcionalidades Holder+ PREMIUM</h1>
-                <Swiper>
-                    <SwiperSlide >
-                            <TbChartCandle />
+                <Swiper
+                    loop={true}
+                    spaceBetween={60}
+                    slidesPerView={4}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                >
+                    <SwiperSlide>
+                            <TbChartCandle size={70}/>
                             <h2>Premium1</h2>
                             <p>Diversos gráficos para auxiliar o aconpanhamento e gerenciamento de sua carteira patrimonial.</p>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TbChartDots />
+                        <TbChartDots size={70}/>
                         <h2>Patrimônio consolidado</h2>
                         <p>
                             Tenha todos seus investimentos consolidados em uma só carteira. 
@@ -24,7 +30,7 @@ const MiddleContent = () => {
                         </p>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TbChartPie />
+                        <TbChartPie size={70}/>
                         <h2>Rebalanceamento</h2>
                         <p>
                             Ferramenta inédita para não deixar as emoções do mercado abalarem sua estratégia de investimento!
@@ -32,7 +38,7 @@ const MiddleContent = () => {
                         </p>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TbFileDescription />
+                        <TbFileDescription size={70}/>
                         <h2>Relatórios</h2>
                         <p>
                             Extrato de carteira de ativos. Consolidação rápida. Download ilimitado de extratos. Análise
@@ -40,7 +46,7 @@ const MiddleContent = () => {
                         </p>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TbChartBar />
+                        <TbChartBar size={70}/>
                         <h2>Histórico</h2>
                         <p>
                             Evolução histórica da carteira. Bolsas de valores globais. Rendas variáveis. Rendas Fixas. 
@@ -50,7 +56,7 @@ const MiddleContent = () => {
                 </Swiper>
             </Premium>
             <Investments>
-                <h1>Valor de investimento</h1>
+                <h1 className='title'>Valor de investimento</h1>
                 <div className='card-container'>
                     <div className='card1'>
                         <h2 className='discount'>20% <span className='off'>off</span></h2>

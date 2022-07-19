@@ -3,6 +3,7 @@ import { Investments, MiddleContentContainer, Premium, Testemonials } from './st
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { TbChartCandle, TbChartDots, TbChartPie, TbFileDescription, TbChartBar,TbStar } from 'react-icons/tb';
+import CountdownTimer from '../Timer/Timer';
 
 const MiddleContent = () => {
     return(
@@ -65,7 +66,9 @@ const MiddleContent = () => {
                         <p className='cash'>ou R$ 114,24 à vista</p>
                         <button className='cta3'>Quero meu plano agora</button>
                         <p className='expiration'>Esse desconto expira dia 31/07 às 23h59</p>
-                        <div>countdown</div>
+                        <CountdownTimer
+                            countdownTimesMs={1659320460000}
+                        />
                     </div>
                     <div className='card2'>
                         <h2 className='discount'>20% <span className='off'>off</span> | MELHOR OFERTA </h2>
@@ -74,7 +77,9 @@ const MiddleContent = () => {
                         <p className='cash'>ou R$ 200,64 à vista</p>
                         <button className='cta3'>Quero meu plano agora</button>
                         <p className='expiration'>Esse desconto expira dia 31/07 às 23h59</p>
-                        <div>countdown</div>
+                        <CountdownTimer
+                            countdownTimesMs={1659320460000}
+                        />
                     </div>
                     <div className='card3'>
                         <h2 className='discount'>20% <span className='off'>off</span></h2>
@@ -83,7 +88,9 @@ const MiddleContent = () => {
                         <p className='cash'>ou R$ 152,64 à vista</p>
                         <button className='cta3'>Quero meu plano agora</button>
                         <p className='expiration'>Esse desconto expira dia 31/07 às 23h59</p>
-                        <div>countdown</div>
+                        <CountdownTimer
+                            countdownTimesMs={1659320460000}
+                        />
                     </div>
                 </div>
             </Investments>

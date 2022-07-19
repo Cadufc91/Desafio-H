@@ -111,6 +111,7 @@ export const Investments = styled.div`
             align-items: center;
             padding: 20px;
             margin-right: 20px;
+            color: white;
 
             .discount{
                 padding: 5px 30px;

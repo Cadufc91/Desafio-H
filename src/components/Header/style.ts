@@ -7,6 +7,9 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 0 65px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 
     img{
         width: 140px;
@@ -16,7 +19,9 @@ export const HeaderContainer = styled.div`
     }
 `;
 
-export const Countdown = styled.div``;
+export const CountdownTimer = styled.div`
+    color: white;
+`;
 
 export const CTA1 = styled.button`
     padding: 15px;

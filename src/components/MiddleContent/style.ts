@@ -223,4 +223,58 @@ export const Investments = styled.div`
     }
 `;
 
-export const Testemonials = styled.div``;
+export const Testemonials = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .testemonials-card-container{
+        display: flex;
+        flex-direction: row;
+        background: #590696;
+        height: 500px;
+        justify-content: space-between;
+        
+        .testemonials-card{
+            background: #F15412;
+            width: 100%;
+            margin-top: 80px;
+            margin-right: 40px;
+            margin-left: 40px;
+            border-radius: 20px 20px 0 0;
+            padding: 20px;
+            
+            .rating{
+                color: yellow;
+            }
+
+            h3{
+                color: #590696;
+            }
+
+            p{
+                color: white;
+            }
+        }
+    }
+`;
+
+export const CTA2 = styled.button`
+    padding: 20px 35px;
+    height: 50%;
+    background: #F15412;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 15%;
+`;

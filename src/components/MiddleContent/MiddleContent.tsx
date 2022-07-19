@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Investments, MiddleContentContainer, Premium, Testemonials } from './style';
+import { CTA2, Investments, MiddleContentContainer, Premium, Testemonials } from './style';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { TbChartCandle, TbChartDots, TbChartPie, TbFileDescription, TbChartBar,TbStar } from 'react-icons/tb';
@@ -126,7 +126,7 @@ const MiddleContent = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <button>Assine já</button>
+                <CTA2>Assine já</CTA2>
             </Testemonials>
         </MiddleContentContainer>
     )

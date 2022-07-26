@@ -9,7 +9,7 @@ const MiddleContent = () => {
     return(
         <MiddleContentContainer>
             <Premium>
-                <h1>Funcionalidades Holder+ PREMIUM</h1>
+                <h1>Funcionalidades Grow Up PREMIUM</h1>
                 <Swiper
                     loop={true}
                     spaceBetween={60}
@@ -95,7 +95,7 @@ const MiddleContent = () => {
                 </div>
             </Investments>
             <Testemonials>
-                <h1>Veja o que as pessoas falam da Holder+</h1>
+                <h1>Veja o que as pessoas falam da Grow Up</h1>
                 <div className='testemonials-card-container'>
                     <div className='testemonials-card'>
                         <div className='rating'>

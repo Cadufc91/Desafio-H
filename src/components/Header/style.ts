@@ -12,8 +12,8 @@ export const HeaderContainer = styled.div`
     font-weight: bold;
 
     img{
-        width: 140px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
         background: white;
         border-radius: 10px;
     }
